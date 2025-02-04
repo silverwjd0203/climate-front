@@ -75,6 +75,7 @@ export default [
       'jsx-a11y/anchor-is-valid': 'warn',
       'prettier/prettier': 'error',
     },
+    linterOptions: { reportUnusedDisableDirectives: true },
   },
   eslintConfigPrettier,
 ];
